@@ -1,0 +1,98 @@
+General FAQs⁉️
+
+📜1. What’s Scroll’s mission?
+Our mission is to scale Ethereum through decentralization without sacrificing any of Ethereum’s inherent security features.
+
+📜2. How can I use Scroll’s testnet?
+prealpha.scroll.io and connect your wallet! There will be more guides in the near future.
+
+📜3. Wen token?
+There is no token associated with Scroll. Please report any scammers claiming otherwise.
+
+📜4. Does Scroll have a roadmap?
+You can find our updated roadmap at https://scroll.io/
+
+📜5. When will Scroll launch to mainnet?
+Projected to launch in 2023.
+
+📜6. What is Scroll?
+Scroll is a general-purpose native zkEVM layer 2 rollup scaling solution for Ethereum.
+
+📜7. What is a Layer 2 (L2) rollup?
+Layer 2 rollup is a scaling solution for Ethereum. L2s transfer transactional computation and state storage off-chain while keeping minimal data per transaction on-chain. This introduces a succinct state verification as multiple transactions aggregate under a single proof.
+
+Essentially L2s are a separate blockchain that extends Ethereum while maintaining consensus.
+
+📜8. What is an Ethereum Virtual Machine (EVM)?
+Ethereum Virtual Machine, or EVM, is a single entity powered by thousands of computers that run the Ethereum client (node). EVM ensures all transactions on the blockchain are valid in one canonical state. Essentially EVM is law, by defining the rules for computing a new state block by block.
+
+📜9. What are Zero-knowledge (zk) proofs?
+ZK-proofs are cryptographic proofs designed for data integrity. Zk-proofs allows an account to prove and validate its contents to another account without revealing the content’s details.
+
+📜10. What is a zk-EVM?
+A general-purpose EVM-compatible solution using zk-proofs for network security, where developers won't need to adjust their current Layer 1 DApps building process and can seamlessly migrate to Scroll’s zk-EVM.
+
+📜11. Is Scroll open source?
+Yes! Scroll is committed to full transparency and has been open source since the first day of development. github.com/scroll-tech.
+
+📜12. What is Layer 3?
+A separate application-specific blockchain purpose built for scaling particular decentralized applications. Another use case for L3s could be for privacy preserving applications.
+
+📜13. Who do I contact to propose an AMA session or collaboration?
+Our team truly welcomes collaboration and engagement with the community. We will have multiple calls throughout the year on our latest update. For any collaboration/partnerships proposal, please reach out to our core team! Just-in-time#3661 & Liam | Scroll#4764.
+
+📜14. How to deploy a smart contract on Scroll’s network?
+Great starting point for new developers - [guide.scroll.io](https://guide.scroll.io/). 
+Technical FAQs⁉️
+
+📜1. Can you give me a simple explanation of how Scroll works?
+Scroll receives regular bytecodes from Layer 1 smart contracts, generates zk-proofs off-chain, then verifies the new states back on Ethereum layer 1.
+
+📜2. What's the difference between a Layer 1 like AVAX and an ETH Layer 2?
+AVAX L1 has its own virtual machine that validates all states in their own network and aims to improve scalable transaction capacity. An Ethereum L2 does not compete with Ethereum, but builds with it, allowing it to scale. The L2 has its own network where new transpaction space is created off-chain from the Ethereum L1. Proof of activity is then committed back to the L1 for secure and decentralized verification that the L2 is behaving correctly.
+
+📜3. What is Scroll’s biggest innovation and has it been academically verified?
+To the best of our knowledge, we have built the fastest GPU prover and plan to open-source it in the future for the community to use. Scroll has also proposed the first architecture for an ASIC/FPGA prover as part of our research effort to further support our hardware ecosystem.
+
+📜4. How is Scroll different from the other Layer 2s?
+Scroll works directly on Layer 1 and allows complete composability with Ethereum dApps and between Layer 2s. Scroll also takes a new approach to generate zk-proofs off-chain using GPU power. Scroll is striving towards becoming a zkEVM.
+
+📜5. A lot of smart people have been working on the zkEVM problem for years, what's Scroll's insight here?
+Research on zero-knowledge proofs including Poseidon hash, Plookup, and PLONK has helped to realize a feasible cost for running a zkEVM. Additionally, we have made a breakthrough in developing GPU and ASIC/FPGA accelerators, to improve hardware capabilities.
+
+📜6. What would the TPS be post-mainnet release?
+Once data sharding (EIP-4844) is pushed to mainnet, it can increase the throughput of Rollups, decrease the cost of storing data on-chain, and lower transaction fees significantly. EIP-4844 will work synergistically with L2 rollups and tps could get higher than 20,000.
+
+📜7. How can a normal user send transactions to Scroll contracts?
+Users can interact with Scroll via selected dApps on our zkEVM. Testnet is now live! Live dApps on Layer 3 provide the “front-end” interface to send transactions to Scroll (L2), then get validated on Ethereum L1.
+
+📜8. When funds are transferred from the Scroll Rollup back to Layer 1, how much information on the sending address is visible to the outside world?
+Transferring funds from Scroll back to Layer 1 will have all the information completely transparent - just like a regular translation on Ethereum Layer 1. All information about transactions are visible via explorers like Etherscan and Scroll’s explorer.
+
+📜9. When can we connect our wallet and use Scroll？
+Our testnet is available for testing. Simply go to prealpha.scroll.io, connect your wallet, and add the appropriate networks. Currently, we support metamask on our testnet.
+
+📜10. Do you have a cold wallet implementation (ie. Ledger)?
+We aim to enable cold wallet users to transact on Scroll directly. For specific announcements on integrations and partnerships, please refer to our #announcements channel and follow us on all socials.
+
+📜11. How long are withdrawal times?
+We estimate withdrawals to take 20-30 minutes during optimal usage. Lower usage might slow withdrawals to take up 1+ hours. More specific details will be provided down the road once closer to mainnet. 
+Use Cases⁉️
+
+📜1. What kind of enterprise use cases can you envisage?
+The elastic design of Ethereum allows endless possibilities to build advanced DApps. All kinds of existing enterprise applications and new ones should be able to benefit from building on Scroll as we can enable them to scale and unlock mass adoption. If you have a potential use case idea, we’d love to hear about it.
+
+📜2. What types of DApps will Scroll enable?
+Scroll will enable every EVM-compatible DApp to easily deploy on Scroll without any changes to the code. Applications that involve multiple steps will find Scroll especially attractive as it might be its only solution to launch a sufficient user experience.
+
+TLDR: every Ethereum application could seamlessly deploy on Scroll to achieve a faster and cheaper experience.
+
+📜3. What is the target industry for your project?
+Scroll is working on scaling transactions in decentralized crypto networks. As the demand to transact on the Blockchain grows, Scroll can expand to support enterprises and consumer applications. Scroll is currently focused on Ethereum and targets existing applications built on top of it, as well as new ones.
+
+📜4. Is there a list of all apps that currently live on Scroll?
+Scroll will add an ‘ecosystem’ page to Scroll.io soon. In the meantime follow our socials to stay up to date with our latest announcements.
+
+📜5. What can I do on Scroll mainnet?
+Users will be able to experience everything a general-purpose rollup can offer on Ethereum. In the future, we will invite community members to become miners of our zkEVM implementation and participate in transaction proving. 
+﻿
